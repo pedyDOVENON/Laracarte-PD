@@ -1,17 +1,17 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-info static-top">
    <div class="container">
-     <a class="navbar-brand" href="#">Laracarte</a>
+     <a class="navbar-brand" href="{{route('root_path')}}">Laracarte</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
      </button>
 
      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="{{route('root_path')}}">Home <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('about_path')}}">About</a>
+                <a class="nav-link "  href="{{route('about_path')}}">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="#Artisan" tabindex="-1" aria-disabled="true">Artisan</a>
