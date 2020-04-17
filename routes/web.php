@@ -26,6 +26,6 @@ Route::get('/about', [
 ]);
 
 
-Auth::routes();
+
 
 

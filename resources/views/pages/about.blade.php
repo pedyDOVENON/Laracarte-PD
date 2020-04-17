@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' =>'About'])
 
 
 @section('content')
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <p> free free to help to improve the <a href="#"> source code</a></p>
+        <p> free free to help to improve the <a href="https://github.com/pedyDOVENON/Laracarte-PD"> source code</a></p>
 
         <hr>
 
