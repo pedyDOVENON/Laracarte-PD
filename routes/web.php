@@ -26,6 +26,11 @@ Route::get('/about', [
 ]);
 
 
+Route::get('/contact', [
+    'as' => 'contact_path',
+    'uses' => 'ContactsController@create'
+]);
+
 
 
 

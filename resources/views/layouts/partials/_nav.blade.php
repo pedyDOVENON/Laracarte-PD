@@ -14,7 +14,7 @@
                 <a class="nav-link "  href="{{route('about_path')}}">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#Artisan" tabindex="-1" aria-disabled="true">Artisan</a>
+                <a class="nav-link " href="#Artisan" tabindex="-1" >Artisan</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Planet</a>
@@ -27,7 +27,7 @@
             </li>
 
             <li class="nav-item">
-               <a class="nav-link " href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
+               <a class="nav-link " href="{{route('contact_path')}}" tabindex="-1" >Contact</a>
             </li>
         </ul>
 
