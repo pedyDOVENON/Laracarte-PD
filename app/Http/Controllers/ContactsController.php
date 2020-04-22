@@ -31,8 +31,8 @@ class ContactsController extends Controller
         */
 
 
-        Mail::to(config('laracarte.admin_support_email'))->send(new ContactMessageCreated($message));
-
+        Mail::to(config('laracarte.admin_support_email'))
+              ->queue(new ContactMessageCreated($message));
         flashy('Merci a vous');
         return redirect()->route('root_path');
 
